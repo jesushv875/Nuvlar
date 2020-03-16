@@ -1,4 +1,24 @@
-body {
-    background: rgb(105, 105, 226);
-
-}
+html,body{
+    color:white;
+    font-family:'Opens Sans',helvetica;  
+    height:100%;
+    width:100%;
+    margin: 0px;
+  }
+   /*estilo para la imagen con texto*/
+  .portada{
+     background: url(img/fondo.jpg) no-repeat fixed center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     height: 70%;
+     width: 100% ;
+     text-align: center;
+   
+  }
+  .text{
+    margin: 200px 500px 0px 0px;	
+    padding: 20px;
+    display: inline-block;
+  }
