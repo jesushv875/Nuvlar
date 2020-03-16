@@ -21,4 +21,12 @@ html,body{
     margin: 200px 500px 0px 0px;	
     padding: 20px;
     display: inline-block;
+    color: white;
   }
+  .text2{
+    margin: 20px 400px 0px 90px;	
+    padding: 20px;
+    display: inline-block;
+    color: rgb(100, 97, 97);
+  }
+  
