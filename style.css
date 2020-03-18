@@ -6,7 +6,7 @@ html,body{
     margin: 0px;
   }
    /*estilo para la imagen con texto*/
-  .portada{
+  #portada{
      background: url(img/fondo.jpg) no-repeat fixed center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -23,10 +23,23 @@ html,body{
     display: inline-block;
     color: white;
   }
-  .text2{
-    margin: 20px 400px 0px 90px;	
+  
+  #text2{
+    /*los colores de los fondos son para ver la caja*/
+    font-size: 15pt;
+    margin: 30px 400px 0px 80px;	
     padding: 20px;
     display: inline-block;
-    color: rgb(100, 97, 97);
-  }
+    color: #626262;
+    background-color: teal;
+    font-family: nexa_regularregular;
   
+
+  }
+  #contacto {
+    /*los colores de los fondos son para ver la caja*/
+    display: inline-block;
+    margin: 0px 0px 100px 950px ;
+    padding: 20px;
+    background-color: yellow;
+  }
