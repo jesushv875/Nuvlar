@@ -1,12 +1,71 @@
-html,body{
-    color:white;
-    font-family:'Opens Sans',helvetica;  
-    height:100%;
-    width:100%;
-    margin: 0px;
-  }
+body{
+  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+/*Quita el subrrayado en todos los enlaces ancla*/
+a{
+  text-decoration: none;
+}
+.padre{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.header{
+  background: url(../imagenes/bg-2.jpg);
+  background-position: right;
+  background-attachment: contain;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.menu{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 60px;
+  align-items: center;
+}
+.logo{
+  flex: 1 1 auto;  
+  text-align: left;
+}
+.logo a{
+  color: white;
+  font-size: 30px;
+}
+.logo a:hover{
+  color:cornflowerblue;
+}
+.logo img{
+  width: 30%;
+}
+.nav{
+  flex: 5 1 auto;
+  justify-content: flex-end;
+}
+.nav a{
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 0 10 px;
+  letter-spacing: 2px;
+}
+.nav a:hover {
+  color: #967e7e;
+}
+.pais{
+  flex: 1 1 auto;
+  display: flex;
+}
+.pais a{
+  font-size: 13px;
+  color: white;
+  padding: 0 5px;
+}
+.social a:hover{
+  color:#343434 ;
+}
    /*estilo para la imagen con texto*/
-  #portada{
+  .portada{
      background: url(img/fondo.jpg) no-repeat fixed center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -17,29 +76,75 @@ html,body{
      text-align: center;
    
   }
-  .text{
-    margin: 200px 500px 0px 0px;	
-    padding: 20px;
-    display: inline-block;
+  .textocon-imagen{
+    padding: 0px 50px;
+    text-align: justify;
+    margin: 200px 300px 0px 0px;	
     color: white;
   }
-  
-  #text2{
-    /*los colores de los fondos son para ver la caja*/
-    font-size: 15pt;
-    margin: 30px 400px 0px 80px;	
+.texto-boton{
+  display: flex;
+  align-items: center;
+  margin: 10px 100px 45px 20px;
+}
+.texto-boton p{
+  font-size: 20pt;
+    margin: 20px 300px 0px 20px;	
     padding: 20px;
-    display: inline-block;
+    display: inline-flexbox;
     color: #626262;
-    background-color: teal;
     font-family: nexa_regularregular;
+}
+.texto-boton button{
+  border: 2px solid #39c7ff;
+  padding: 20px;
+  font-family: 'nexa_regularregular';
+  color: #626262;
+  background-color: #fff;
+  font-size: 20px;
   
+}
+  .btn {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.loquehacemos{
+  display: flex;
+  justify-content: space-between;
+  border: 0px;
+  padding: 35px;
+  text-align: center;
+}
+.desarrollo{
+  display: block;
+}
+.desarrollo img{
+  display: block;
+    height: auto;
+}
+.sistemas{
+  display: block;
 
-  }
-  #contacto {
-    /*los colores de los fondos son para ver la caja*/
-    display: inline-block;
-    margin: 0px 0px 100px 950px ;
-    padding: 20px;
-    background-color: yellow;
-  }
+}/*
+.sistemas img{
+  display: block;
+    max-width: 100%;
+    height: auto;
+}
+.aplicaciones{
+  display: block;
+
+}
+.aplicaciones img{
+  display: block;
+    max-width: 100%;
+    height: auto;
+}*/
+.center{
+  text-align: center;
+}

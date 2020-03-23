@@ -1,55 +1,62 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-        <link rel="stylesheet" href="style.css">
-        <title>Nuvlar - Servicios de Software y Consultoría</title>
-        <!-- Menù de la pag --> 
-        <div class="menu"> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-        <a class="navbar-brand" href="#">Nuvlar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Proyectos
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">LOCRYPT</a>
-                    <a class="dropdown-item" href="#">BOLETOPOLIS</a>
-                    <a class="dropdown-item" href="#">VER MÀS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
-                </li>
-              </ul>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial=scale=1.0,
+    maximum-scale=1.0, minimum-scale=1.0">
+    <title>Nuvlar</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="padre" >
+      <div class="portada">
+        <header class="header">
+            <div class="menu">
+                 <div class="logo">
+                     <a href="index.html"><img src="img/logo.png" alt=""></a>
+                 </div>
+                 <nav class="nav">
+                     <a href="#">Inicio</a>
+                     <a href="#">Proyectos</a>
+                     <a href="#">Contacto</a>
+                 </nav>
+                 <div class="pais">
+                     <div><a href="#">Mex</a></div>
+                     <div><a href="#">USA</a></div>
+                 </div> 
             </div>
-          </nav> 
-        </div>     
-    </head>
-    <body>
-      <!-- Div de imagen -->
-      <div class="portada" id="portada">
-        <div class="text">
-          <h1 class="display-4">Bienvenido a Nuvlar</h1>
-          <h2 style="text-align:left">TECNOLOGÌAS DE</h2>
-            <h2 style="text-align:left"> INFORMACIÒN PARA LA VIDA</h2>
+           <div class="textocon-imagen"> 
+                <h1 >Bienvenido a Nuvlar</h1>
+                <h2 >TECNOLOGÌAS DE</h2>
+                  <h2 > INFORMACIÒN PARA LA VIDA</h2>
+          </div>
+        </header>
+      </div>
+      <div class="texto-boton ">
+        <p>Nuvlar es una empresa formada por profesionales dedicados a crear soluciones para el mundo moderno, desarrollando aplicaciones móviles,
+           sistemas y sitios web a la medida, siempre únicos e innovadores.</p>
+           <button class="boton btn">Contáctanos</button>
+      </div>
+      <h2 class="center">Lo que hacemos</h2>
+      <div class="loquehacemos">
+        <div class="desarrollo center">
+          <img src="img/web.png" alt="">
+          <h3 class="center">DESARROLLO WEB</h3>
+          <p> Conocemos sobre desarrollo web. Los sitios que desarrollamos son responsivos, dinámicos y escalables.</p>
+
         </div>
+        <div class="sistemas center">
+          <img src="img/sistemas.png" alt="">
+          <h3 class="center">SISTEMAS A LA MEDIDA</h3>
+          <p>Sistemas informáticos para tu empresa. Eficientamos procesos de producción, inventario, clientes, ventas y más. Utilizamos los más avanzados lenguajes de programación.</p>
+        </div>
+        <div class="aplicaciones center">
+          <img src="img/app.png" alt="">
+          <h3 class="center">APLICACIONES MOVILES</h3>
+          <p> Ingresa al mundo movil con Nuvlar; Desarrollamos tu app con las últimas técnicas de programación. Dominamos todos los sistemas operativos.</p>
+        </div>
+      </div>
     </div>
-      <div class="text2" id="text2">
-          <h5 style="text-align:left"> 
-        Nuvlar es una empresa formada por profesionales dedicados a crear soluciones para el mundo moderno, desarrollando aplicaciones móviles, sistemas y sitios web a la medida, siempre únicos e innovadores.
-         </h5> 
-     </div>
-       <button type="button" class="btn btn-outline-info" id="contacto">CONTÀCTANOS</button>      
  </body>
 </html>
