@@ -190,6 +190,12 @@ a{
   padding: 0px;
   max-width:6%;
 }
+.detodo{
+  display: flex;
+}
+.textocontelefono{
+  padding: 50px;
+}
 .color-white{
   color: #fff;
 }
