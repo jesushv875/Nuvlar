@@ -25,7 +25,7 @@ a{
   align-items: center;
 }
 .logo{
-  flex: 1 1 auto;  
+  flex: 1 1 auto;
   text-align: left;
 }
 .logo a{
@@ -74,12 +74,12 @@ a{
      height: 70%;
      width: 100% ;
      text-align: center;
-   
+
   }
   .textocon-imagen{
     padding: 0px 50px;
     text-align: justify;
-    margin: 200px 300px 0px 0px;	
+    margin: 200px 300px 0px 0px;
     color: white;
   }
 .texto-boton{
@@ -89,7 +89,7 @@ a{
 }
 .texto-boton p{
   font-size: 20pt;
-    margin: 20px 300px 0px 20px;	
+    margin: 20px 300px 0px 20px;
     padding: 20px;
     display: inline-flexbox;
     color: #626262;
@@ -102,7 +102,7 @@ a{
   color: #626262;
   background-color: #fff;
   font-size: 20px;
-  
+
 }
   .btn {
     font-size: 14px;
@@ -114,37 +114,91 @@ a{
     border-radius: 4px;
 }
 .loquehacemos{
+  background: ;
   display: flex;
   justify-content: space-between;
-  border: 0px;
-  padding: 35px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .desarrollo{
+  background:;
   display: block;
+  padding: 40px;
+  border-radius: 4px;
 }
 .desarrollo img{
-  display: block;
-    height: auto;
+  height:auto;
+  max-width:100%;
+}
+.desarrollo p{
+  color: #626262;
+  font-size: 11pt;
+  font-family: nexa_regularregular;
 }
 .sistemas{
+  background:;
   display: block;
-
-}/*
+  padding: 35px;
+  border-radius: 4px;
+}
 .sistemas img{
-  display: block;
-    max-width: 100%;
-    height: auto;
+  height:auto;
+  max-width:64%;
+  position:center !important
+}
+.sistemas p{
+  color: #626262;
+  font-size: 11pt;
+  font-family: nexa_regularregular;
 }
 .aplicaciones{
+  background: ;
   display: block;
+  padding: 35px;
+  border-radius: 4px;
 
 }
-.aplicaciones img{
+.textobajoimagen{
   display: block;
-    max-width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+}
+.aplicaciones img{
+    max-width: 80%;
     height: auto;
-}*/
+}
+.aplicaciones p{
+  color: #626262;
+  font-size: 11pt;
+  font-family: nexa_regularregular;
+}
+.comolohacemos{
+  background:#39c7ff;
+}
+.tecnologiashtml{
+
+  display: flex;
+}
+.imagenes{
+  display: flex;
+  background: #39c7ff;
+  padding: 14px;
+}
+.imagenes img{
+  padding: 0px;
+  max-width:6%;
+}
+.color-white{
+  color: #fff;
+}
+.color-celeste{
+  background:#39c7ff;
+}
 .center{
   text-align: center;
+}
+p{
+  margin: 0 0 10px;
 }
